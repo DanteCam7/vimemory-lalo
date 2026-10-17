@@ -1,0 +1,39 @@
+:root {
+	--cream: #F5EFE6;
+	--paper: #FFFFFF;
+	--line: #E7DED0;
+
+	--sage: #7DA99A;
+	--sage-tint: #DDE9E3;
+	--sage-deep: #5E8476;
+	--dusty-blue: #9BBEC8;
+	--blue-tint: #DCEAEE;
+	--blue-mist: #ECF3F5;
+	--red-tint: #F9E1D8;
+	--muted-dot: #C9C2B8;
+
+	--accent: #CB3910;
+	--accent-hover: #A82D0C;
+	--accent-brand: #E8391C;
+	--on-accent: #FFFFFF;
+	--spine-light: #FBFAF6;
+
+	--ink: #1A1A1A;
+	--ink-muted: #5C5C5C;
+	--field-border: #7E7A73;
+
+	--font-display: 'Inter', system-ui, sans-serif;
+	--font-body: 'Poppins', system-ui, sans-serif;
+
+	--radius-chip: 10px;
+	--radius-card: 50px;
+	--radius-illus: 64px;
+	--radius-pill: 999px;
+
+	--container: 1200px;
+	--gutter: 1.5rem;
+	--nav-height: 76px;
+
+	--transition-fast: 0.18s ease;
+	--transition-base: 0.3s ease;
+}

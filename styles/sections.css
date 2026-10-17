@@ -1,4 +1,4 @@
-.hero { padding: 2.5rem 0 0; }
+.hero { padding: 2.5rem 0 0; overflow-x: clip; }
 
 .hero__inner {
 	display: grid;
@@ -30,10 +30,10 @@
 
 .hero__visual { position: relative; aspect-ratio: 1 / 0.92; margin-top: -12rem; margin-bottom: -2.5rem; }
 
-.hero__visual img { position: absolute; }
+.hero__visual > img { position: absolute; }
 
 .hero__leaves { width: 30%; left: 0; top: 34%; }
-.hero__crowny { width: 40%; left: 25%; bottom: 47%; }
+.hero__crowny { position: absolute; width: 40%; left: 25%; bottom: 47%; }
 .hero__mug { width: 22%; right: 0; bottom: 5%; }
 
 .hero__badge { width: 14%; }
@@ -272,6 +272,7 @@
 	background: var(--paper);
 	border-radius: var(--radius-illus);
 	padding: 4rem 22rem 4rem 4rem;
+	overflow-x: clip;
 }
 
 .testimonial__quote-mark { width: 64px; margin-top: 0.4rem; }
